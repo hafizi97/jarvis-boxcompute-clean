@@ -1,0 +1,20 @@
+{
+  "recommended_official_mcp": [
+    {
+      "name": "mcp-server-fetch",
+      "description": "Web content fetching and conversion for efficient LLM context usage",
+      "install": "uvx mcp-server-fetch"
+    },
+    {
+      "name": "mcp-server-sequentialthinking",
+      "description": "Dynamic and reflective problem-solving through structured thought sequences for agents",
+      "install": "npx -y @modelcontextprotocol/server-sequentialthinking"
+    },
+    {
+      "name": "mcp-server-time",
+      "description": "Accurate time and timezone conversion tools",
+      "install": "uvx mcp-server-time"
+    }
+  ],
+  "status": "scanned_and_ready"
+}

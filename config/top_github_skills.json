@@ -1,0 +1,25 @@
+{
+  "top_skills_to_integrate": [
+    {
+      "name": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "benefit": "Persistent context across sessions with SQLite & vector embeddings"
+    },
+    {
+      "name": "Understand-Anything",
+      "repo": "Egonex-AI/Understand-Anything",
+      "benefit": "Turn any codebase into an interactive knowledge graph you can explore and query"
+    },
+    {
+      "name": "planning-with-files",
+      "repo": "OthmanAdi/planning-with-files",
+      "benefit": "Crash-proof markdown planning and session recovery after clear/compaction"
+    },
+    {
+      "name": "video-shotcraft",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "benefit": "Cinematic product promo videos with Remotion & shot recipes"
+    }
+  ],
+  "status": "researched"
+}

@@ -1,0 +1,9 @@
+{
+  "mapping": {
+    "Architect": ["gstack", "pathfinder", "architect", "gsd-map-codebase"],
+    "Debugger": ["autonomous-self-healing", "fix-ci", "gsd-debug", "debugger"],
+    "Frontend": ["impeccable", "design-taste-frontend", "ui-styling", "frontend"],
+    "Security": ["cso", "hackers-hate-this", "security-auditor", "secret-scanner"]
+  },
+  "status": "skills_integrated"
+}

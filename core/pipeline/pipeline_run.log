@@ -1,0 +1,489 @@
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Error in command: fatal: not a git repository (or any of the parent directories): .git
+
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Error in command: fatal: not a git repository (or any of the parent directories): .git
+
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Success: On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   config/telegram_offset.txt
+	modified:   jarvis_telegram.py
+	modified:   memory/claude_sessions.json
+	modified:   memory/opencode_sessions.json
+	modified:   memory/routines.json
+	modified:   telegram_bot/bot.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	config/jarvis.png
+	core/pipeline/
+	memory/jarvis_memory.json
+	plugins/cloud_agent.py
+	telegram_bot/bot.py.bak
+	telegram_bot/bot.py.bak_pre_unblock_1795055427
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Step 2: Codebase Exploration & Health Check
+Running: python3 -c 'print("Environment OK")'
+Success: Environment OK
+JARVIS Pipeline completed successfully.
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Output: On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   config/telegram_offset.txt
+	modified:   jarvis_telegram.py
+	modified:   memory/claude_sessions.json
+	modified:   memory/opencode_sessions.json
+	modified:   memory/routines.json
+	modified:   telegram_bot/bot.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	config/jarvis.png
+	core/pipeline/
+	memory/jarvis_memory.json
+	plugins/cloud_agent.py
+	telegram_bot/bot.py.bak
+	telegram_bot/bot.py.bak_pre_unblock_1795055427
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Step 2: Codebase Exploration & Health Check
+Running: python3 -c 'print("Environment OK")'
+Output: Environment OK
+JARVIS Pipeline completed successfully.
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Output: On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   config/telegram_offset.txt
+	modified:   jarvis_telegram.py
+	modified:   memory/claude_sessions.json
+	modified:   memory/opencode_sessions.json
+	modified:   memory/routines.json
+	modified:   telegram_bot/bot.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	config/jarvis.png
+	core/pipeline/
+	memory/jarvis_memory.json
+	plugins/cloud_agent.py
+	telegram_bot/bot.py.bak
+	telegram_bot/bot.py.bak_pre_unblock_1795055427
+	tools/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Step 2: Codebase Exploration & Health Check
+Running: python3 -c 'print("Environment OK")'
+Output: Environment OK
+Step 2.5: Verifying Scrapling Local Setup & Wrapper
+Running: python3 /home/faiz/Jarvis/core/pipeline/jarvis_scrapling.py https://example.com
+Output: {
+  "success": true,
+  "url": "https://example.com",
+  "status": 200,
+  "title": "",
+  "text_snippet": ""
+}
+Stderr: [2026-11-19 17:34:49] WARNING: This logic is deprecated now, and have no effect; It will be removed with v0.3. Use `Fetcher.configure()` instead before fetching
+[2026-11-19 17:34:49] INFO: Fetched (200) <GET https://example.com/> (referer: https://www.google.com/)
+JARVIS Pipeline completed successfully.
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Output: On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   config/telegram_offset.txt
+	modified:   jarvis_telegram.py
+	modified:   memory/claude_sessions.json
+	modified:   memory/opencode_sessions.json
+	modified:   memory/routines.json
+	modified:   telegram_bot/bot.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	config/jarvis.png
+	core/pipeline/
+	memory/jarvis_memory.json
+	plugins/cloud_agent.py
+	telegram_bot/bot.py.bak
+	telegram_bot/bot.py.bak_pre_unblock_1795055427
+	tools/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Step 2: Codebase Exploration & Health Check
+Running: python3 -c 'print("Environment OK")'
+Output: Environment OK
+Step 2.5: Verifying Scrapling Local Setup & Wrapper
+Running: python3 /home/faiz/Jarvis/core/pipeline/jarvis_scrapling.py https://example.com
+Output: {
+  "success": true,
+  "url": "https://example.com",
+  "status": 200,
+  "title": "",
+  "text_snippet": ""
+}
+Stderr: [2026-11-19 17:35:04] WARNING: This logic is deprecated now, and have no effect; It will be removed with v0.3. Use `Fetcher.configure()` instead before fetching
+[2026-11-19 17:35:05] INFO: Fetched (200) <GET https://example.com/> (referer: https://www.google.com/)
+JARVIS Pipeline completed successfully.
+Starting JARVIS Pipeline in mode: audit
+Step 1: Project Management & Status Audit
+Running: git status
+Output: On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   config/telegram_offset.txt
+	modified:   jarvis_telegram.py
+	modified:   memory/claude_sessions.json
+	modified:   memory/opencode_sessions.json
+	modified:   memory/routines.json
+	modified:   telegram_bot/bot.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	config/jarvis.png
+	core/pipeline/
+	memory/jarvis_memory.json
+	plugins/cloud_agent.py
+	telegram_bot/bot.py.bak
+	telegram_bot/bot.py.bak_pre_unblock_1795055427
+	tools/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Step 2: Codebase Exploration & Health Check
+Running: python3 -c 'print("Environment OK")'
+Output: Environment OK
+Step 2.5: Verifying Scrapling Local Setup & Wrapper
+Running: python3 /home/faiz/Jarvis/core/pipeline/jarvis_scrapling.py https://example.com
+Output: {
+  "success": true,
+  "url": "https://example.com",
+  "status": 200,
+  "title": "",
+  "text_snippet": ""
+}
+Stderr: [2026-11-19 17:35:18] WARNING: This logic is deprecated now, and have no effect; It will be removed with v0.3. Use `Fetcher.configure()` instead before fetching
+[2026-11-19 17:35:18] INFO: Fetched (200) <GET https://example.com/> (referer: https://www.google.com/)
+JARVIS Pipeline completed successfully.
+[2026-11-20 07:33:55] [JARVIS Pipeline] Starting pipeline in mode: full
+[2026-11-20 07:33:55] [JARVIS Pipeline] Running: git rev-parse --abbrev-ref HEAD
+[2026-11-20 07:33:55] [JARVIS Pipeline] Output: main
+[2026-11-20 07:33:55] [JARVIS Pipeline] Running: git status --porcelain
+[2026-11-20 07:33:55] [JARVIS Pipeline] Output: M .gitignore
+ M config/telegram_offset.txt
+ M core/__init__.py
+ M core/_smoke_harness.py
+ M core/action_loader.py
+ M core/appidentity.py
+ M core/audio_devices.py
+ M core/avatar.py
+ M core/avatar_mesh.py
+ M core/cloud.py
+ M core/code_checks.py
+ M core/confirm.py
+ M core/echo.py
+ M core/gemini.py
+ M core/git_mcp.py
+ M core/hardware_guardian.py
+ M core/hotkey.py
+ M core/installer.py
+ M core/lazyimport.py
+ M core/llm_client.py
+ M core/nine_router_mcp.py
+ M core/outcome.py
+ M core/platform_support.py
+ M core/plugin_loader.py
+ M core/routines/__init__.py
+ M core/routines/desktop.py
+ M core/routines/engine.py
+ M core/routines/rules.py
+ M core/screenact.py
+ M core/screenview.py
+ M core/skill_router.py
+ M core/skills_manager.py
+ M core/stt.py
+ M core/tasks/__init__.py
+ M core/tasks/agents.py
+ M core/tasks/brain.py
+ M core/tasks/desktop.py
+ M core/tasks/engine.py
+ M core/tasks/research.py
+ M core/tasks/store.py
+ M core/tasks/tools.py
+ M core/tasks/web.py
+ M core/tls.py
+ M core/tts.py
+ M core/undo.py
+ M core/video_engine.py
+ M core/viseme.py
+ M core/wake_word.py
+ M jarvis_telegram.py
+ M main.py
+ M memory/claude_sessions.json
+ M memory/opencode_sessions.json
+ M memory/routines.json
+ M telegram_bot/bot.py
+?? agents/hermes.md
+?? config/jarvis.png
+?? core/config/
+?? core/hermes/
+?? core/memory/
+?? core/pipeline/
+?? memory/hud_history.json
+?? memory/hud_memory.py
+?? memory/jarvis_memory.json
+?? memory/tasks/t1119a95f9d.json
+?? memory/tasks/t1119a95f9d.sq1.turns.json
+?? memory/tasks/t1119a95f9d.sq2.turns.json
+?? memory/tasks/t1119a95f9d/
+?? plugins/cloud_agent.py
+?? reports/2026-11-19-pasar-hermes-t1119a95f9d.md
+?? telegram_bot/bot.py.bak
+?? telegram_bot/bot.py.bak_pre_unblock_1795055427
+?? tools/
+[2026-11-20 07:33:55] [JARVIS Pipeline] Branch main; 72 uncommitted path(s)
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — git status (branch=main, changes=72)
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/main.py
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/core/pipeline/jarvis_pipeline.py
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/config/api_keys.json
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — exists: /home/faiz/.config/opencode/opencode.json
+[2026-11-20 07:33:55] [JARVIS Pipeline] Inventory: 130 Python files, 31 actions, 3 plugins
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — inventory (130 py / 31 actions / 3 plugins)
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — json valid: api_keys.json
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — json valid: opencode.json
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — json valid: mcp_servers.json
+[2026-11-20 07:33:55] [JARVIS Pipeline] PASS — disk free > 0.5 GB (6.2 GB)
+[2026-11-20 07:33:55] [JARVIS Pipeline] Running: /usr/bin/python3 -m compileall -q -x (tools/scrapling|__pycache__) .
+[2026-11-20 07:33:56] [JARVIS Pipeline] PASS — compileall
+[2026-11-20 07:33:56] [JARVIS Pipeline] FAIL — pytest (3 test file(s) but pytest not installed)
+[2026-11-20 07:33:56] [JARVIS Pipeline] Report written: /home/faiz/Jarvis/reports/pipeline-2026-11-20-073356.md
+[2026-11-20 07:33:56] [JARVIS Pipeline] Pipeline FAILED in 1.0s — /home/faiz/Jarvis/reports/pipeline-2026-11-20-073356.md
+[2026-11-20 07:34:02] [JARVIS Pipeline] Starting pipeline in mode: full
+[2026-11-20 07:34:02] [JARVIS Pipeline] Running: git rev-parse --abbrev-ref HEAD
+[2026-11-20 07:34:02] [JARVIS Pipeline] Output: main
+[2026-11-20 07:34:02] [JARVIS Pipeline] Running: git status --porcelain
+[2026-11-20 07:34:02] [JARVIS Pipeline] Output: M .gitignore
+ M config/telegram_offset.txt
+ M core/__init__.py
+ M core/_smoke_harness.py
+ M core/action_loader.py
+ M core/appidentity.py
+ M core/audio_devices.py
+ M core/avatar.py
+ M core/avatar_mesh.py
+ M core/cloud.py
+ M core/code_checks.py
+ M core/confirm.py
+ M core/echo.py
+ M core/gemini.py
+ M core/git_mcp.py
+ M core/hardware_guardian.py
+ M core/hotkey.py
+ M core/installer.py
+ M core/lazyimport.py
+ M core/llm_client.py
+ M core/nine_router_mcp.py
+ M core/outcome.py
+ M core/platform_support.py
+ M core/plugin_loader.py
+ M core/routines/__init__.py
+ M core/routines/desktop.py
+ M core/routines/engine.py
+ M core/routines/rules.py
+ M core/screenact.py
+ M core/screenview.py
+ M core/skill_router.py
+ M core/skills_manager.py
+ M core/stt.py
+ M core/tasks/__init__.py
+ M core/tasks/agents.py
+ M core/tasks/brain.py
+ M core/tasks/desktop.py
+ M core/tasks/engine.py
+ M core/tasks/research.py
+ M core/tasks/store.py
+ M core/tasks/tools.py
+ M core/tasks/web.py
+ M core/tls.py
+ M core/tts.py
+ M core/undo.py
+ M core/video_engine.py
+ M core/viseme.py
+ M core/wake_word.py
+ M jarvis_telegram.py
+ M main.py
+ M memory/claude_sessions.json
+ M memory/opencode_sessions.json
+ M memory/routines.json
+ M telegram_bot/bot.py
+?? agents/hermes.md
+?? config/jarvis.png
+?? core/config/
+?? core/hermes/
+?? core/memory/
+?? core/pipeline/
+?? memory/hud_history.json
+?? memory/hud_memory.py
+?? memory/jarvis_memory.json
+?? memory/tasks/t1119a95f9d.json
+?? memory/tasks/t1119a95f9d.sq1.turns.json
+?? memory/tasks/t1119a95f9d.sq2.turns.json
+?? memory/tasks/t1119a95f9d/
+?? plugins/cloud_agent.py
+?? reports/2026-11-19-pasar-hermes-t1119a95f9d.md
+?? reports/pipeline-2026-11-20-073356.md
+?? telegram_bot/bot.py.bak
+?? telegram_bot/bot.py.bak_pre_unblock_1795055427
+?? tools/
+[2026-11-20 07:34:02] [JARVIS Pipeline] Branch main; 73 uncommitted path(s)
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — git status (branch=main, changes=73)
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/main.py
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/core/pipeline/jarvis_pipeline.py
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/config/api_keys.json
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — exists: /home/faiz/.config/opencode/opencode.json
+[2026-11-20 07:34:02] [JARVIS Pipeline] Inventory: 130 Python files, 31 actions, 3 plugins
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — inventory (130 py / 31 actions / 3 plugins)
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — json valid: api_keys.json
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — json valid: opencode.json
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — json valid: mcp_servers.json
+[2026-11-20 07:34:02] [JARVIS Pipeline] PASS — disk free > 0.5 GB (6.2 GB)
+[2026-11-20 07:34:02] [JARVIS Pipeline] Running: /usr/bin/python3 -m compileall -q -x (tools/scrapling|__pycache__) .
+[2026-11-20 07:34:03] [JARVIS Pipeline] PASS — compileall
+[2026-11-20 07:34:03] [JARVIS Pipeline] FAIL — pytest (3 test file(s) but pytest not installed)
+[2026-11-20 07:34:03] [JARVIS Pipeline] Report written: /home/faiz/Jarvis/reports/pipeline-2026-11-20-073403.md
+[2026-11-20 07:34:03] [JARVIS Pipeline] Pipeline FAILED in 0.3s — /home/faiz/Jarvis/reports/pipeline-2026-11-20-073403.md
+[2026-11-20 07:42:31] [JARVIS Pipeline] Starting pipeline in mode: full
+[2026-11-20 07:42:31] [JARVIS Pipeline] Running: git rev-parse --abbrev-ref HEAD
+[2026-11-20 07:42:31] [JARVIS Pipeline] Output: main
+[2026-11-20 07:42:31] [JARVIS Pipeline] Running: git status --porcelain
+[2026-11-20 07:42:31] [JARVIS Pipeline] Output: M .gitignore
+ M config/telegram_offset.txt
+ M core/__init__.py
+ M core/_smoke_harness.py
+ M core/action_loader.py
+ M core/appidentity.py
+ M core/audio_devices.py
+ M core/avatar.py
+ M core/avatar_mesh.py
+ M core/cloud.py
+ M core/code_checks.py
+ M core/confirm.py
+ M core/echo.py
+ M core/gemini.py
+ M core/git_mcp.py
+ M core/hardware_guardian.py
+ M core/hotkey.py
+ M core/installer.py
+ M core/lazyimport.py
+ M core/llm_client.py
+ M core/nine_router_mcp.py
+ M core/outcome.py
+ M core/platform_support.py
+ M core/plugin_loader.py
+ M core/routines/__init__.py
+ M core/routines/desktop.py
+ M core/routines/engine.py
+ M core/routines/rules.py
+ M core/screenact.py
+ M core/screenview.py
+ M core/skill_router.py
+ M core/skills_manager.py
+ M core/stt.py
+ M core/tasks/__init__.py
+ M core/tasks/agents.py
+ M core/tasks/brain.py
+ M core/tasks/desktop.py
+ M core/tasks/engine.py
+ M core/tasks/research.py
+ M core/tasks/store.py
+ M core/tasks/tools.py
+ M core/tasks/web.py
+ M core/tls.py
+ M core/tts.py
+ M core/undo.py
+ M core/video_engine.py
+ M core/viseme.py
+ M core/wake_word.py
+ M jarvis_telegram.py
+ M main.py
+ M memory/claude_sessions.json
+ M memory/opencode_sessions.json
+ M memory/routines.json
+ M telegram_bot/bot.py
+?? agents/hermes.md
+?? config/jarvis.png
+?? core/config/
+?? core/hermes/
+?? core/memory/
+?? core/pipeline/
+?? memory/hud_history.json
+?? memory/hud_memory.py
+?? memory/jarvis_memory.json
+?? memory/tasks/t1119a95f9d.json
+?? memory/tasks/t1119a95f9d.sq1.turns.json
+?? memory/tasks/t1119a95f9d.sq2.turns.json
+?? memory/tasks/t1119a95f9d/
+?? models/
+?? plugins/cloud_agent.py
+?? reports/2026-11-19-pasar-hermes-t1119a95f9d.md
+?? reports/pipeline-2026-11-20-073356.md
+?? reports/pipeline-2026-11-20-073403.md
+?? telegram_bot/bot.py.bak
+?? telegram_bot/bot.py.bak_pre_unblock_1795055427
+?? tools/
+[2026-11-20 07:42:31] [JARVIS Pipeline] Branch main; 75 uncommitted path(s)
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — git status (branch=main, changes=75)
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/main.py
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/core/pipeline/jarvis_pipeline.py
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — exists: /home/faiz/Jarvis/config/api_keys.json
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — exists: /home/faiz/.config/opencode/opencode.json
+[2026-11-20 07:42:31] [JARVIS Pipeline] Inventory: 130 Python files, 31 actions, 3 plugins
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — inventory (130 py / 31 actions / 3 plugins)
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — json valid: api_keys.json
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — json valid: opencode.json
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — json valid: mcp_servers.json
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — disk free > 0.5 GB (5.7 GB)
+[2026-11-20 07:42:31] [JARVIS Pipeline] Running: /usr/bin/python3 -m compileall -q -x (tools/scrapling|__pycache__) .
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — compileall
+[2026-11-20 07:42:31] [JARVIS Pipeline] PASS — automated tests (no tests/ suite; compile gate used)
+[2026-11-20 07:42:31] [JARVIS Pipeline] Report written: /home/faiz/Jarvis/reports/pipeline-2026-11-20-074231.md
+[2026-11-20 07:42:31] [JARVIS Pipeline] Pipeline completed in 0.3s — /home/faiz/Jarvis/reports/pipeline-2026-11-20-074231.md

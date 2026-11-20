@@ -1,0 +1,33 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/faiz/Jarvis"]
+        },
+        "git": {
+            "command": "python3",
+            "args": ["/home/faiz/Jarvis/core/git_mcp.py"]
+        },
+        "sqlite": {
+            "command": "/home/faiz/.local/bin/mcp-server-sqlite",
+            "args": ["--db-path", "/home/faiz/Jarvis/core/memory/jarvis.db"]
+        },
+        "chroma": {
+            "command": "/home/faiz/.local/bin/chroma-mcp",
+            "args": ["--client-type", "persistent", "--data-dir", "/home/faiz/Jarvis/core/memory/chroma"]
+        },
+        "playwright": {
+            "command": "npx",
+            "args": ["-y", "@playwright/mcp"]
+        },
+        "shell": {
+            "command": "npx",
+            "args": ["-y", "mcp-server-commands"]
+        },
+        "docker": {
+            "command": "npx",
+            "args": ["-y", "mcp-server-docker"],
+            "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}
+        }
+    }
+}

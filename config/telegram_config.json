@@ -1,0 +1,12 @@
+{
+    "bot_token": "9032451576:AAHZdqOO0-wYeWgkVRE7ZMrs3S6NhDjYEB0",
+    "allowed_chat_ids": [
+        146208485
+    ],
+    "admin_password": "jarvis-faiz-secret",
+    "nine_router_url": "http://127.0.0.1:20128/v1",
+    "nine_router_key": "sk-eba49bed4ad933fe-3ux51u-e90d2ed3",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "voice": "ms-MY-OsmanNeural",
+    "jarvis_url": "http://127.0.0.1:8000"
+}

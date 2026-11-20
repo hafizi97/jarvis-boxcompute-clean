@@ -1,0 +1,56 @@
+{
+    "assistant_name": "JARVIS",
+    "user_name": "Faiz",
+    "os_system": "linux",
+    "gemini_api_key": "AIzaSyA0XZHZcU0ZpB1vi1XTWmYbz6F3TJ6H9Gw",
+    "local_only": false,
+    "hud_style": "face",
+    "wake_word_enabled": false,
+    "push_to_talk_enabled": false,
+    "voice_name": "Fenrir",
+    "ui_scale": 1.0,
+    "providers": {
+        "mode": "gemini",
+        "sidecar": "openai_compat@9router",
+        "sidecar_first": true,
+        "creds": {
+            "openai_compat@9router": {
+                "base_url": "http://127.0.0.1:20128/v1",
+                "api_key": "sk-eba49bed4ad933fe-3ux51u-e90d2ed3",
+                "model": "gemini/gemini-3.5-flash-lite",
+                "timeout": 15,
+                "tools": true,
+                "vision": "1",
+                "max_tools": "0",
+                "max_tool_chars": "0",
+                "vision_model": "gemini/gemini-3.5-flash-lite"
+            },
+            "whisper@groq": {
+                "backend": "api",
+                "model": "whisper-large-v3-turbo",
+                "base_url": "https://api.groq.com/openai/v1",
+                "catalog": "groq",
+                "api_key": "",
+                "device": "cpu",
+                "language": "",
+                "download_root": ""
+            },
+            "tts_edgetts@edgetts": {
+                "catalog": "edgetts",
+                "voice": "('ms-MY-OsmanNeural', 'Osman (Bahasa Melayu)')",
+                "auto_bilingual": "1"
+            }
+        },
+        "coding": "openai_compat@9router",
+        "pipeline": {
+            "llm": "openai_compat@9router",
+            "stt": "",
+            "tts": "tts_edgetts@edgetts"
+        }
+    },
+    "morning_brief_enabled": true,
+    "ui_color": "#00d4ff",
+    "input_device": "",
+    "output_device": "",
+    "camera_index": 0
+}

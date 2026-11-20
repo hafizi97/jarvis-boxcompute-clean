@@ -1,0 +1,21 @@
+{
+  "recommended_mcp_servers": [
+    {
+      "name": "sqlite-extended",
+      "purpose": "Advanced business metrics and persistent workspace data queries"
+    },
+    {
+      "name": "github-mcp",
+      "purpose": "Direct issue tracking, PR automation, and repo management via MCP"
+    },
+    {
+      "name": "puppeteer-mcp",
+      "purpose": "Headless browser automation and automated UI testing"
+    },
+    {
+      "name": "docker-mcp",
+      "purpose": "Container health monitoring and isolated service management"
+    }
+  ],
+  "status": "ready_for_activation"
+}

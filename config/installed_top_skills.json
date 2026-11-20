@@ -1,0 +1,25 @@
+{
+  "installed_skills": [
+    {
+      "name": "claude-mem",
+      "source": "thedotmack/claude-mem",
+      "state": "active_and_linked"
+    },
+    {
+      "name": "Understand-Anything",
+      "source": "Egonex-AI/Understand-Anything",
+      "state": "active_and_linked"
+    },
+    {
+      "name": "planning-with-files",
+      "source": "OthmanAdi/planning-with-files",
+      "state": "active_and_linked"
+    },
+    {
+      "name": "video-shotcraft",
+      "source": "Vincentwei1021/video-shotcraft",
+      "state": "active_and_linked"
+    }
+  ],
+  "integration_status": "fully_operational"
+}

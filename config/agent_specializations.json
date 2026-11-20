@@ -1,0 +1,21 @@
+{
+  "expert_roles": {
+    "Architect": {
+      "focus": "System architecture, modular design, clean codebase structures",
+      "model_preference": "claude-sonnet-5.5"
+    },
+    "Debugger": {
+      "focus": "Karpathy self-healing, root-cause isolation, error traceback analysis",
+      "model_preference": "gemini-3.8-flash-high"
+    },
+    "Frontend": {
+      "focus": "UI/UX, responsive styling, design systems, modern aesthetics",
+      "model_preference": "gemini-3.1-pro"
+    },
+    "Security": {
+      "focus": "Vulnerability scanning, secret leaks protection, secure command enforcement",
+      "model_preference": "claude-opus-5.5"
+    }
+  },
+  "enforcement": "strict_domain_boundaries"
+}

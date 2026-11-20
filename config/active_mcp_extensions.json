@@ -1,0 +1,23 @@
+{
+  "active_extensions": [
+    {
+      "name": "mcp-server-fetch",
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "status": "installed"
+    },
+    {
+      "name": "mcp-server-sequentialthinking",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequentialthinking"],
+      "status": "installed"
+    },
+    {
+      "name": "mcp-server-time",
+      "command": "uvx",
+      "args": ["mcp-server-time"],
+      "status": "installed"
+    }
+  ],
+  "integrated_at": "2026-11-20"
+}

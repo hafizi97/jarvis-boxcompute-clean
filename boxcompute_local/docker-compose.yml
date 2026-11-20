@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  boxcompute-api:
+    image: python:3.10-slim
+    container_name: boxcompute_controller
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/faiz/Jarvis/boxcompute_local:/app
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    command: >
+      bash -c "pip install -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port 8000"

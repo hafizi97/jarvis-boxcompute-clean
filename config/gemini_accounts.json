@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "id": "gemini_account_1",
+      "type": "google_gemini_pro",
+      "status": "ready"
+    },
+    {
+      "id": "gemini_account_2",
+      "type": "google_gemini_pro",
+      "status": "ready"
+    }
+  ],
+  "routing": "round_robin",
+  "gateway_port": 8047
+}

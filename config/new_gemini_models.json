@@ -1,0 +1,9 @@
+{
+  "experimental_models": [
+    "gemini-carbon",
+    "gemini-neon",
+    "gemini-hydrogen"
+  ],
+  "gateway_routing": "proxied_via_antigravity",
+  "status": "ready_to_use"
+}

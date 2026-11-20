@@ -1,0 +1,29 @@
+{
+    "files": {
+        "cld_97bd38e1": {
+            "id": "cld_97bd38e1",
+            "filename": "jarvis_profile_backup_20261116_184901.tar.gz",
+            "size_bytes": 94062,
+            "size_str": "91.86 KB",
+            "upload_date": "2026-11-16 18:49:06",
+            "parts": [
+                {
+                    "part": 1,
+                    "file_id": "BQACAgUAAxkDAAPAavrfoV5bRGsyoJdhWiGViIcOtqkAAnMdAAKH8dhXKhnNUXxvWhM9BA",
+                    "file_unique_id": "AgADcx0AAofx2Fc",
+                    "message_id": 192,
+                    "size": 94062
+                }
+            ],
+            "is_chunked": false,
+            "original_path": "/tmp/jarvis_profile_backup_20261116_184901.tar.gz",
+            "tags": [
+                "system_backup"
+            ]
+        }
+    },
+    "stats": {
+        "total_uploaded_bytes": 94126,
+        "total_files": 1
+    }
+}

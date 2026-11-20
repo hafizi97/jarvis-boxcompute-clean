@@ -1,0 +1,12 @@
+{
+  "account_tier": "Gemini Advanced / Pro",
+  "unlocked_capabilities": [
+    "Gemini 1.5 Pro (2M Context Window)",
+    "Gemini 2.5 Pro",
+    "Gemini 3.1 Pro",
+    "Advanced Code Interpreter & Agentic Execution",
+    "Multimodal Analysis (Video, Audio, Large Documents)",
+    "Prompt Caching Support"
+  ],
+  "status": "fully_unlocked_via_antigravity"
+}

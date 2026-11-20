@@ -1,0 +1,29 @@
+{
+  "office_mode": "badass_autonomous",
+  "engine_gateway": "http://127.0.0.1:8047",
+  "fallback_router": "http://127.0.0.1:20128",
+  "collaboration": true,
+  "agents": [
+    {
+      "name": "Architect Agent",
+      "model": "claude-sonnet-5.5",
+      "role": "System design, multi-file refactoring, high-level blueprints"
+    },
+    {
+      "name": "Debugger Agent",
+      "model": "gemini-3.8-flash-high",
+      "role": "Root-cause analysis, bug fixing, test verification"
+    },
+    {
+      "name": "Frontend / UI Agent",
+      "model": "gemini-3.1-pro",
+      "role": "Responsive layouts, aesthetic polish, modern styling"
+    },
+    {
+      "name": "Security & Core Agent",
+      "model": "claude-opus-5.5",
+      "role": "Security audit, secret scan, safe command enforcement"
+    }
+  ],
+  "discussion_protocol": "peer_to_peer_sync"
+}
